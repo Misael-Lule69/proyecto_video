@@ -1,4 +1,370 @@
-<h1>Iphone 16 Pro Interfaces</h1>
-<div class="image-container">
-  <img src="/img/iphone1.png" alt="mochilafirst">
+<div class="iphone-container">
+  <h1 class="iphone-title">iPhone 16 Pro</h1>
+  <p class="iphone-tagline">El futuro en tus manos</p>
+  
+  <div class="hero-section">
+    <div class="image-container">
+      <img src="/img/iphone1.png" alt="iPhone 16 Pro" class="floating-iphone">
+      <div class="color-options">
+        <span class="color-dot space-black"></span>
+        <span class="color-dot titanium-white"></span>
+        <span class="color-dot rose-gold"></span>
+        <span class="color-dot ocean-blue"></span>
+      </div>
+    </div>
+    
+    <div class="specs-container">
+      <div class="spec-card">
+        <div class="spec-icon">🚀</div>
+        <h3>Chip A18 Pro</h3>
+        <p>Nuevo procesador 3nm con 20% más rendimiento y 30% más eficiencia energética</p>
+      </div>
+      
+      <div class="spec-card">
+        <div class="spec-icon">📷</div>
+        <h3>Sistema de Cámaras Pro</h3>
+        <p>Triple cámara 48MP + LiDAR, zoom óptico 5x y fotografía computacional mejorada</p>
+      </div>
+      
+      <div class="spec-card">
+        <div class="spec-icon">🔋</div>
+        <h3>Batería Inteligente</h3>
+        <p>Hasta 28 horas de reproducción y carga inalámbrica MagSafe más rápida</p>
+      </div>
+      
+      <div class="spec-card">
+        <div class="spec-icon">🖥️</div>
+        <h3>Pantalla Super Retina XDR</h3>
+        <p>6.7" con ProMotion 120Hz y Always-On Display mejorado</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="feature-showcase">
+    <div class="feature">
+      <div class="feature-content">
+        <h2>Diseño Titanio Aero</h2>
+        <p>Estructura de titanio grado aeroespacial con un 15% más ligero y un 20% más resistente</p>
+        <ul class="feature-list">
+          <li>Resistente al agua IP68</li>
+          <li>Bordes redondeados ergonómicos</li>
+          <li>Acabado mate anti-huellas</li>
+        </ul>
+      </div>
+      <div class="feature-image">
+        <img src="/img/iphone-design.png" alt="Diseño iPhone 16 Pro">
+      </div>
+    </div>
+    
+    <div class="feature reverse">
+      <div class="feature-image">
+        <img src="/img/iphone-camera.png" alt="Cámara iPhone 16 Pro">
+      </div>
+      <div class="feature-content">
+        <h2>Fotografía Computacional 2.0</h2>
+        <p>Nuevo sistema de procesamiento de imágenes con IA avanzada</p>
+        <ul class="feature-list">
+          <li>Modo Noche en todas las cámaras</li>
+          <li>Grabación 8K Cinematic Mode</li>
+          <li>Estabilización espacial mejorada</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="tech-specs">
+    <h2>Especificaciones Técnicas</h2>
+    <div class="specs-grid">
+      <div class="spec-item">
+        <span class="spec-label">Pantalla</span>
+        <span class="spec-value">6.7" Super Retina XDR</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-label">Procesador</span>
+        <span class="spec-value">A18 Pro 6-core</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-label">Almacenamiento</span>
+        <span class="spec-value">128GB - 1TB</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-label">Cámaras</span>
+        <span class="spec-value">48MP + 12MP + 12MP + LiDAR</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-label">Batería</span>
+        <span class="spec-value">4323 mAh</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-label">Sistema Operativo</span>
+        <span class="spec-value">iOS 18</span>
+      </div>
+    </div>
+  </div>
 </div>
+
+<style>
+:root {
+  --apple-blue: #0071e3;
+  --apple-blue-light: #2997ff;
+  --apple-dark: #1d1d1f;
+  --apple-light: #f5f5f7;
+  --apple-gray: #86868b;
+  --apple-border-radius: 18px;
+  --apple-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--apple-light);
+  color: var(--apple-dark);
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+.iphone-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.iphone-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #0071e3, #00a1e4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.iphone-tagline {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--apple-gray);
+  margin-bottom: 60px;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.floating-iphone {
+  max-width: 100%;
+  height: auto;
+  animation: float 6s ease-in-out infinite;
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.15));
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.color-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.color-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.color-dot:hover {
+  transform: scale(1.1);
+}
+
+.space-black { background: #424245; }
+.titanium-white { background: #f5f5f7; border: 1px solid #e5e5e7; }
+.rose-gold { background: #fad7bd; }
+.ocean-blue { background: #0071e3; }
+
+.specs-container {
+  flex: 1;
+  min-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.spec-card {
+  background: white;
+  padding: 30px;
+  border-radius: var(--apple-border-radius);
+  box-shadow: var(--apple-shadow);
+  transition: transform 0.3s ease;
+}
+
+.spec-card:hover {
+  transform: translateY(-10px);
+}
+
+.spec-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.spec-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: var(--apple-dark);
+}
+
+.spec-card p {
+  color: var(--apple-gray);
+  font-size: 0.95rem;
+}
+
+.feature-showcase {
+  margin-bottom: 80px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.feature.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.feature-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.feature-image img {
+  max-width: 100%;
+  border-radius: var(--apple-border-radius);
+  box-shadow: var(--apple-shadow);
+}
+
+.feature h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--apple-dark);
+}
+
+.feature p {
+  font-size: 1.1rem;
+  color: var(--apple-gray);
+  margin-bottom: 25px;
+  max-width: 500px;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
+  padding: 10px 0;
+  padding-left: 30px;
+  position: relative;
+  font-size: 1rem;
+}
+
+.feature-list li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--apple-blue);
+  font-weight: bold;
+}
+
+.tech-specs {
+  background: white;
+  padding: 50px;
+  border-radius: var(--apple-border-radius);
+  box-shadow: var(--apple-shadow);
+}
+
+.tech-specs h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: var(--apple-dark);
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.spec-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: var(--apple-light);
+  border-radius: 12px;
+}
+
+.spec-label {
+  font-size: 0.9rem;
+  color: var(--apple-gray);
+  margin-bottom: 5px;
+}
+
+.spec-value {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--apple-dark);
+}
+
+@media (max-width: 768px) {
+  .iphone-title {
+    font-size: 2.5rem;
+  }
+  
+  .iphone-tagline {
+    font-size: 1.2rem;
+  }
+  
+  .hero-section {
+    flex-direction: column;
+  }
+  
+  .feature, .feature.reverse {
+    flex-direction: column;
+  }
+  
+  .tech-specs {
+    padding: 30px 20px;
+  }
+  
+  .specs-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
